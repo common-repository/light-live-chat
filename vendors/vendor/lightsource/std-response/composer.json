@@ -1,0 +1,12 @@
+{
+  "name": "lightsource/std-response",
+  "description": "Standardization for a function / method response with multiple arguments",
+  "type": "library",
+  "license": "MIT",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "LightSource\\StdResponse\\": ""
+    }
+  }
+}

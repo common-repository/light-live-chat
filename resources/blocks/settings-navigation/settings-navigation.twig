@@ -1,0 +1,9 @@
+<div class="wp-filter settings-navigation{% if class is defined %} {{ class }}{% endif %}">
+    <ul class="filter-links">
+        {% for item in items %}
+            <li>
+                <a href="{{ item.href }}" class="{{ item.class }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

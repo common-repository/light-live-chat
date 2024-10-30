@@ -1,0 +1,26 @@
+.settings-header {
+
+  color: #373737;
+  margin: 0 !important;
+  padding-bottom: 10px !important;
+
+  &__text {
+
+    margin: 0;
+    line-height: 1;
+
+    &--theme--main {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 2;
+      margin-bottom: 5px;
+    }
+
+    &--theme--info {
+      font-size: 14px;
+      line-height: 1;
+    }
+
+  }
+
+}

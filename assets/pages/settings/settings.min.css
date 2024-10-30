@@ -1,0 +1,34 @@
+body:not([class^="test"]) {
+  outline: none; }
+
+.settings {
+  padding: 20px 20px 20px 0; }
+  .settings__navigation {
+    margin-top: 20px; }
+  .settings .form-table th {
+    font-weight: 400 !important; }
+
+.settings-header {
+  color: #373737;
+  margin: 0 !important;
+  padding-bottom: 10px !important; }
+  .settings-header__text {
+    margin: 0;
+    line-height: 1; }
+    .settings-header__text--theme--main {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 2;
+      margin-bottom: 5px; }
+    .settings-header__text--theme--info {
+      font-size: 14px;
+      line-height: 1; }
+
+.settings-form__button--type--save {
+  margin-top: 30px !important; }
+
+.settings-form__button--type--restore {
+  margin-top: 0 !important; }
+
+
+/*# sourceMappingURL=settings.min.css.map*/

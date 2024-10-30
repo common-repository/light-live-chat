@@ -1,0 +1,11 @@
+<div class="settings-header{% if class is defined %} {{ class }}{% endif %}">
+    <p class="settings-header__text settings-header__text--theme--main">{{ text.title }}</p>
+    <p class="settings-header__text settings-header__text--theme--info">
+        <span>{{ text.description }}</span>
+        <a href="{{ text.mainUrl }}" target="_blank">LightChat.org</a>
+    </p>
+    <p class="settings-header__text settings-header__text--theme--info">
+        <span>{{ text.notice }}</span>
+        <a href="{{ text.signUpUrl }}" target="_blank">{{ text.signUp }}</a>
+    </p>
+</div>
